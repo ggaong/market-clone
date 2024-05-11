@@ -1,6 +1,6 @@
 <script>
  import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-  import { user$ } from "../store";
+ import { user$ } from "../store";
 
  const provider = new GoogleAuthProvider();
  const auth = getAuth();
